@@ -1,0 +1,24 @@
+# Content of tests/0-add_integer.txt
+'''Doctest for add_integer module.
+
+This defines an addition function that accepts two numbers and returns the arithmetic sum.
+
+Examples:
+    >>> from 0-add_integer import add_integer
+
+    # Adding two floats
+    >>> add_integer(4.0, 2.0)
+    6
+
+    # Adding an integer and the default value (98)
+    >>> add_integer(2)
+    100
+
+Returns:
+    int: A number representing the sum of 'a' and 'b'.
+
+Raises:
+    TypeError: Raises an exception if 'a' or 'b' is not an integer or float.
+'''
+
+# End of file
